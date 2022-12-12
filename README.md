@@ -13,18 +13,22 @@ Steps to reproduce
 - Step 1
 Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
+
 Expected result Homepage is displayed
 - Step 2
 Action Click on “Log in” button
 Input data
+
 Expected result Log in page should be displayed
 - Step 3
 Action Type your phone number
 Input data
+
 Expected result You should receive code by text message
 - Step 4
 Action Input received code
 Input data
+
 Expected result User should land on dashboard page
 -
 GT-4
