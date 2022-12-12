@@ -136,173 +136,157 @@ Expected result User should not be able to login with incorrect code
 -
 GT-83
 User should not be able to login if phone number missing a numbers
-
-Severity
- Not set
-Priority
- Not set
-Behavior
-Not set
-Type
-Other
-Layer
-Not set
-Is Flaky
-No
-Milestone
 -
 Automation
 Not automated
+
 Status
 Actual
 
+Pre-conditions
+Existing account
+
 Steps to reproduce
-Step 1
+- Step 1
 Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
+
 Expected result Homepage is displayed
-Step 2
+- Step 2
 Action Click on “Log in” button
 Input data
+
 Expected result Log in page should be displayed
-Step 3
+- Step 3
 Action Type incomplete phone number
 Input data
+
 Expected result
-Step 4
+- Step 4
 Action Click button "=>"
 Input data
+
 Expected result Red texbox appears. User should not be able to login with incomplete phone number.
 
-
-
+-
 GT-66 / Dashboard / Financial Goals
 User should see "One Time" option as default while creating a financial goal
-
-Severity
- Normal
-Priority
- Not set
-Behavior
-Positive
-Type
-Other
-Layer
-Not set
-Is Flaky
-No
-Milestone
 -
 Automation
 Automated
+
 Status
 Actual
 https://dev.gigturbo.com/dashboard
+
 Pre-conditions
 Must be logged in
 
 Steps to reproduce
-Step 1
+- Step 1
 Action Log In and navigate to Gigturbo dashboard
 Input data
+
 Expected result Dashboard must be displayed
-Step 2
+- Step 2
 Action Click +Add Goal button on the right side
 Input data
+
 Expected result A pop up Add Goal must appear
-Step 3
+- Step 3
 Action Click on "Financial Goal" button
 Input data
+
 Expected result
-Step 4
+- Step 4
 Action Verify that "One Time" button is highlighted in black by default
 Input data
+
 Expected result
 
-
-
+-
 GT-28 / Dashboard / Financial Goals
 Changing amount of $ per Month should change accordingly to the position of scrollbar financial goal.
-
-Severity
- Not set
-Priority
- Not set
-Behavior
-Not set
-Type
-Other
-Layer
-Not set
-Is Flaky
-No
-Milestone
 -
 Automation
 Not automated
+
 Status
 Actual
 
+Pre-conditions
+Existing account
+
 Steps to reproduce
-Step 1
+- Step 1
 Action Go to GigTurbo home page
 Input data
+
 Expected
 result Home page opens
-Step 2
+- Step 2
 Action Login to existing account
 Input data
+
 Expected
 result User is redirected to dashboard page
-Step 3
+- Step 3
 Action Click on button 'Add Goal' button on the right side
 Input data
+
 Expected
 result Add a goal popup appears with financial and learning goals options
-Step 4
+- Step 4
 Action Click on "Financial Goal" button
 Input data
+
 Expected
 result Popup was updated to "Let’s add a goal!"
-Step 5
+- Step 5
 Action In goal textbox type "Breakfast+random number"
 Input data
+
 Expected
 result
-Step 6
+- Step 6
 Action Click "Recurring" goal type
 Input data
+
 Expected
 result
-Step 7
+- Step 7
 Action Type in 500 in Cost textbox
 Input data
+
 Expected
 result
-Step 8
+- Step 8
 Action Click button "Monthly"
 Input data
+
 Expected
 result Notice how in "Dedicating hours per week" displaying 20 hours
-Step 9
+- Step 9
 Action Change number to 5000 in texboxt "Cost"
 Input data
+
 Expected
 result Notice how in "Dedicating hours per week" displaying 65 hours
-Step 10
+- Step 10
 Action Change number to 50000 in texboxt "Cost"
 Input data
+
 Expected
 result Notice how in "Dedicating hours per week" displaying 648 hours
-Step 11
+- Step 11
 Action Verify that changing amount of $ per Month should change accordingly to the position of scrollbar financi
 al goal.
 Input data
+
 Expected
 result
 
-
-
+-
 GT-27 / Dashboard / Financial Goals
 Changing amount of $ per WEEK should change accordingly to the position of scrollbar financial goal.
 
