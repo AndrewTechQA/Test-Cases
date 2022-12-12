@@ -130,8 +130,6 @@ Input data
 Expected result User should not be able to login with incorrect code
 
 -
-![image](https://user-images.githubusercontent.com/106398846/206966583-2dce6a08-791f-4bcf-8351-faa4c3bd467c.png)
-
 GT-83
 User should not be able to login if phone number missing a numbers
 
