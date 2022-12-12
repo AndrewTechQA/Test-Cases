@@ -30,6 +30,7 @@ Action Input received code
 Input data
 
 Expected result User should land on dashboard page
+
 -
 GT-4
 User should not be able to log in without phone number
