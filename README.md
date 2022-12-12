@@ -1,4 +1,3 @@
-
 GT-3
 User should be able to Log In using phone number
 -
@@ -16,12 +15,12 @@ Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
 
 Expected result Homepage is displayed
-- Step 2
+-Step 2
 Action Click on “Log in” button
 Input data
 
 Expected result Log in page should be displayed
-- Step 3
+-Step 3
 Action Type your phone number
 Input data
 
