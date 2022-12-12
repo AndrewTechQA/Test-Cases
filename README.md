@@ -60,6 +60,7 @@ Action Click on "=>" button (arrow to the right) without typing phone number
 Input data
 
 Expected result Phone number textbox is highlighted in red. User is not able to login
+
 -
 GT-9
 User should be able to log out
@@ -77,20 +78,24 @@ Steps to reproduce
 - Step 1
 Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
+
 Expected result Homepage is displayed
 - Step 2
 Action Login to existing account
 Input data
+
 Expected result Dashboard page appears
 - Step 3
 Action Click on profile icon on the top right corner
 Input data
+
 Expected result Profile pop up appears
 - Step 4
 Action Click "Logout" button
 Input data
 
 Expected result User logout successfully and appears on the home page
+
 -
 GT-82
 User should not be able to login with incorrect security code
