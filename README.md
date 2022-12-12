@@ -36,9 +36,6 @@ Expected result User should land on dashboard page
 GT-4
 User should not be able to log in without phone number
 -
-
-
--
 Automation
 Automated
 Status
@@ -63,54 +60,38 @@ Action Click on "=>" button (arrow to the right) without typing phone number
 Input data
 
 Expected result Phone number textbox is highlighted in red. User is not able to login
-
-
-
+-
 GT-9
 User should be able to log out
-
-Severity
- Not set
-Priority
- Not set
-Behavior
-Positive
-Type
-Functional
-Layer
-Not set
-Is Flaky
-No
-Milestone
 -
 Automation
 Automated
 Status
 Actual
 The user has an existing account.
+
 Pre-conditions
 User is already logged in
 
 Steps to reproduce
-Step 1
+- Step 1
 Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
 Expected result Homepage is displayed
-Step 2
+- Step 2
 Action Login to existing account
 Input data
 Expected result Dashboard page appears
-Step 3
+- Step 3
 Action Click on profile icon on the top right corner
 Input data
 Expected result Profile pop up appears
-Step 4
+- Step 4
 Action Click "Logout" button
 Input data
+
 Expected result User logout successfully and appears on the home page
-
-
-
+-
 GT-82
 User should not be able to login with incorrect security code
 
