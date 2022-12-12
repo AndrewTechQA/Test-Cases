@@ -3,6 +3,7 @@ User should be able to Log In using phone number
 -
 Automation
 Automated
+
 Status
 Actual
 
@@ -37,6 +38,7 @@ User should not be able to log in without phone number
 -
 Automation
 Automated
+
 Status
 Actual
 
@@ -66,6 +68,7 @@ User should be able to log out
 -
 Automation
 Automated
+
 Status
 Actual
 The user has an existing account.
@@ -101,6 +104,7 @@ User should not be able to login with incorrect security code
 -
 Automation
 Not automated
+
 Status
 Actual
 
