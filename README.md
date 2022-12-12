@@ -98,45 +98,39 @@ Expected result User logout successfully and appears on the home page
 -
 GT-82
 User should not be able to login with incorrect security code
-
-Severity
- Not set
-Priority
- Not set
-Behavior
-Not set
-Type
-Other
-Layer
-Not set
-Is Flaky
-No
-Milestone
 -
 Automation
 Not automated
 Status
 Actual
 
+Pre-conditions
+Existing account
+
 Steps to reproduce
-Step 1
+- Step 1
 Action Navigate to Homepage
 Input data https://dev.gigturbo.com/
+
 Expected result Homepage is displayed
-Step 2
+- Step 2
 Action Click on “Log in” button
 Input data
+
 Expected result Log in page should be displayed
-Step 3
+- Step 3
 Action Type your phone number
 Input data
+
 Expected result You should receive code by text message
-Step 4
+- Step 4
 Action Input incorrect security code
 Input data
+
 Expected result User should not be able to login with incorrect code
 
-
+-
+![image](https://user-images.githubusercontent.com/106398846/206966583-2dce6a08-791f-4bcf-8351-faa4c3bd467c.png)
 
 GT-83
 User should not be able to login if phone number missing a numbers
