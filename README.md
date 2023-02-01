@@ -13,7 +13,7 @@ Existing account
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
@@ -48,7 +48,7 @@ Existing account
 Steps to reproduce
 - Step 1
 Action Go to homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
@@ -79,7 +79,7 @@ User is already logged in
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
@@ -114,7 +114,7 @@ Existing account
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
@@ -149,7 +149,7 @@ Existing account
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
@@ -177,7 +177,7 @@ Automated
 
 Status
 Actual
-https://dev.gigturbo.com/dashboard
+https://
 
 Pre-conditions
 Must be logged in
@@ -378,7 +378,7 @@ Not automated
 
 Status
 Actual
-https://dev.gigturbo.com/
+https://
 
 Pre-conditions
 Existing account
@@ -386,7 +386,7 @@ Existing account
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 E
 xpected result Homepage is displayed
 - Step 2
@@ -424,7 +424,7 @@ Not automated
 
 Status
 Actual
-https://dev.gigturbo.com/
+https://
 
 Pre-conditions
 User must be logged in
@@ -432,7 +432,7 @@ User must be logged in
 Steps to reproduce
 - Step 1
 Action Navigate to Homepage
-Input data https://dev.gigturbo.com/
+Input data https://
 
 Expected result Homepage is displayed
 - Step 2
